@@ -13,3 +13,38 @@
               d) followers count
 
 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Title Page</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <script src="jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    </head>
+<body>
+
+    <div id="w">
+        <h1>Username Search</h1>
+        <p>Enter a GitHub Username to search for</p>
+
+        <input type="text" name="username" id="userName" placeholder="Username">
+        <br />
+        <button href="#" type="button" id="submitBtn" class="button">Search</button>
+
+        <div id="ghapidata" class="clearfix"></div>
+        <div class="alert" id="alertDiv">
+            <span class="closebtn" onclick="this.parentElement.style.opacity=0;">&times;</span>
+            <strong>Sorry</strong> Username not found
+        </div>
+    </div>
+
+    <div class="output" id="output">
+        
+
+    </div>
+
+</body>
+
+</html>
